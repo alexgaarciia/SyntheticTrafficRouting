@@ -3,8 +3,8 @@
 This project generates synthetic network traffic data using a Generative Adversarial Network (GAN). 
 
 ## Project Structure
-- `input_data`: Contains datasets that can be used for input.
-- `output_data`: Stores the generated synthetic data.
+- `data`: Contains datasets that can be used for input.
+- `synthetic_data.csv`: Generated synthetic data.
 - `synthetic_network_traffic_data_generation.ipynb`: A Jupyter notebook that processes network traffic data and trains a GAN to generate synthetic data. 
 
 ## Notebook Description
