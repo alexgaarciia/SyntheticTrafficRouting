@@ -10,7 +10,7 @@ This project aims at generating synthetic network traffic data using a Generativ
 - `synthetic_network_traffic_data_generation.ipynb`: Jupyter notebook that processes network traffic data and trains a GAN to generate synthetic data. 
 - `metrics.ipynb`: Jupyter notebook dedicated to evaluating the quality of the generated synthetic data by comparing it to real data.
 
-## Notebook Description
+## Main Notebook Description
 The `synthetic_network_traffic_data_generation.ipynb` notebook performs the following tasks:
 1. **Imports Libraries**: Necessary libraries are imported.
 2. **Data Processing**: Ingests XML data files, extracts demand information, encodes categorical variables, and normalizes numerical values for use in the GAN.
