@@ -1,3 +1,2 @@
 # SyntheticTrafficRouting
-## Overview
 This project focuses on generating synthetic network traffic data and evaluating its reliability for network routing tasks, particularly traffic flow management. By using Generative Adversarial Networks (GANs) and Conditional Tabular Generative Adversarial Networks (CTGANs), we generate synthetic datasets and assess key metrics such as total link load on the shortest paths and the distribution of traffic across the network. 
