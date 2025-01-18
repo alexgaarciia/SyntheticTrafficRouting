@@ -43,3 +43,6 @@ def combine_first_n_datasets(folder_path, n_files=100):
     combined_df = pd.concat(all_data, ignore_index=True)
     return combined_df
     
+def rescale_demand(data, factor):
+    data["demand_value"] = data["demand_value"] * factor
+    return data
