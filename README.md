@@ -6,7 +6,7 @@ This project focuses on generating synthetic network traffic data and evaluating
 ## Overview
 
 Efficient network traffic management relies on accurate simulations of traffic behavior. Generating synthetic traffic matrices is crucial when real traffic data is scarce, sensitive, or limited. In this project, we utilize GANs and CTGANs to generate realistic traffic matrices for the **US Abilene network topology**:
-![US Abilene network topology](images/topology.pdf)
+![US Abilene network topology](images/topology.jpg)
 
 The generated synthetic data is evaluated for its reliability in simulating real-world conditions by measuring key metrics such as:
 
@@ -22,7 +22,7 @@ This repository provides the code for:
 
 
 
-## Requirements
+## Installation and Requirements
 
 The following libraries are required to run the code:
 
@@ -34,21 +34,13 @@ The following libraries are required to run the code:
 - scikit-learn
 - SDV
 
-To install the required libraries, run:
-
-```
-pip install -r requirements.txt
-```
-
-## Installation
-
 Clone the repository:
 
 ```
 git clone https://github.com/username/SyntheticTrafficRouting.git
 cd SyntheticTrafficRouting
 ```
-Install the required libraries (see Requirements).
+Install the required libraries.
 
 ## Dataset
 
@@ -61,7 +53,7 @@ $demand_{scaled} = demand_{original} × (1 + 0.45)^{(2025 - 2004)}$
 
 This transformation ensures that the synthetic data remains relevant to contemporary traffic conditions.
 
-## Key Methodology
+## Methodology
 
 **GAN Architecture**: The GAN consists of a generator and a discriminator, where the generator outputs realistic traffic demand values. Categorical features (e.g., source and target nodes) and numerical traffic demands are modeled to closely reflect real-world conditions.
 
